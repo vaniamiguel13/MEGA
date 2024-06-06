@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from MEGACon.MEGA_4 import MEGAcon
+from MEGACon.MEGA_3 import MEGAcon
 from cost_function import cost_function
 from constraints import constraints
 from parameters import LB, UB

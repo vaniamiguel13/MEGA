@@ -25,6 +25,7 @@ def cost_function(x):
 
     # Objective functions
     f1 = 174.2214 * V_a ** 1.0699 + 12486.713 * G_s ** 0.6216 + 114.8094 * G_s + 955.5 * A_s ** 0.9633 + 41.2706 * (A_s * (1 + h3 + h4)) ** 1.0699
-    f2 = 1 / 1000 * (beta_TSS * TSSef + beta_COD * CODef + beta_BOD * BODef + beta_TKN * TKNef + beta_NO * S_NO) * Qef
+    #f2 = 1 / 1000 * (beta_TSS * TSSef + beta_COD * CODef + beta_BOD * BODef + beta_TKN * TKNef + beta_NO * S_NO) * Qef
 
-    return np.array([f1, f2])
+    #return np.array([f1, f2])
+    return f1
